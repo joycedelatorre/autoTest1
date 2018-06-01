@@ -1,0 +1,25 @@
+{
+  "name": "autotest1",
+  "version": "1.0.0",
+  "description": "test using javascript, selenium and mocha",
+  "main": "libraryTest.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joycedelatorre/autoTest1.git"
+  },
+  "author": "jdelt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joycedelatorre/autoTest1/issues"
+  },
+  "homepage": "https://github.com/joycedelatorre/autoTest1#readme",
+  "dependencies": {
+    "selenium-webdriver": "^4.0.0-alpha.1"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
+}
