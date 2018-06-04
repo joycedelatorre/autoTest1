@@ -3,6 +3,7 @@ var webdriver = require('selenium-webdriver'),
 By = webdriver.By
 until = webdriver.until,
 chrome = require('selenium-webdriver/chrome');
+var o = new chrome.Options();
 // o.addArguments('disable-infobars');
 var driver;
 var find;
